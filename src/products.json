@@ -1,10 +1,106 @@
-[
-  {
-    "name": "Produkt 1",
-    "price": "100"
-  },
-  {
-    "name": "Produkt 2",
-    "price": "200"
-  }
-]
+{
+  "list": [
+    {
+      "name": "Produkt",
+      "price": "100",
+      "image": "img1.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "200",
+    "image": "img2.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "100",
+    "image": "img3.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "200",
+    "image": "img2.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "100",
+    "image": "img1.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "200",
+    "image": "img3.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "100",
+    "image": "img1.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "200",
+    "image": "img2.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "100",
+    "image": "img1.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "200",
+    "image": "img2.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "100",
+    "image": "img3.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "200",
+    "image": "img2.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "100",
+    "image": "img1.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "200",
+    "image": "img3.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "100",
+    "image": "img1.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "200",
+    "image": "img2.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "100",
+    "image": "img1.jpg"
+    },
+    {
+    "name": "Produkt",
+    "price": "200",
+    "image": "img2.jpg"
+    }
+  ],
+  "basket": [
+    {
+      "name": "Produkt",
+      "price": "100",
+      "image": "img1.jpg"
+    },
+    {
+      "name": "Produkt",
+      "price": "200",
+      "image": "img2.jpg"
+    }
+  ]
+}

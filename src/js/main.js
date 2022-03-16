@@ -1,9 +1,19 @@
 $(function() {
 
-    let $ajax = new Ajax('php/ajax/init.php');
+    let $product = new Product('src/php/ajax.php');
 
-    $ajax.getData();
+    $product.getData('list');
 
+    $('.basket').on('click', function() {
 
+        let $next = $(this).next();
+
+        $next.toggle( 'slow',function() {
+
+            $product.getData('basket');
+
+        });
+
+    });
 
 });

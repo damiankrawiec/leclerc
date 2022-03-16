@@ -1,0 +1,55 @@
+.top {
+  background-color: @blue;
+  padding: 0;
+  .basket {
+    float: right;
+    height: 100px;
+    background-color: @orange;
+    width: 20%;
+    font-size: 20px;
+    color: @white;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .basket-detail {
+    position: absolute;
+    min-height: 200px;
+    text-align: center;
+    width: 20%;
+    top: 100px;
+    background-color: @white;
+    right: 0;
+    z-index: 1;
+    display: none;
+    .box-shadow();
+  }
+}
+.slide {
+  margin-top: 3%;
+  .carousel-inner {
+    border: 10px solid @white;
+    background-color: @white;
+    .box-shadow();
+    .box-radius(@radius);
+  }
+}
+.product-box {
+  padding: 2% 10%;
+  .product-list {
+    > div {
+      padding: 1%;
+      .product {
+        text-align: center;
+        padding: 1%;
+        background-color: @white;
+        .box-shadow();
+        .box-radius(@radius);
+
+        img {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
